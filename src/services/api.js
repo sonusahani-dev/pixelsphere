@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = "https://pixels-api-3.onrender.com"; // ✅ Your live JSON API
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+ // ✅ Your live JSON API
 
 export const fetchPhotographers = async () => {
   try {

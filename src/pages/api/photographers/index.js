@@ -1,7 +1,7 @@
 
 export default async function handler(req, res) {
   try {
-    const response = await fetch('http://localhost:3001/photographers');
+    const response = await fetch('https://pixels-api-3.onrender.com/photographers');
 
     if (!response.ok) {
       return res.status(response.status).json({ error: 'Failed to fetch photographers' });
