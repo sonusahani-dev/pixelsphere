@@ -1,21 +1,24 @@
 import axios from 'axios';
 
+const BASE_URL = "https://pixels-api-3.onrender.com"; // ✅ Your live JSON API
+
 export const fetchPhotographers = async () => {
   try {
-    const response = await axios.get('/api/photographers');
-    return response.data;
+    const res = await axios.get(`${BASE_URL}/photographers`);
+    return res.data;
   } catch (error) {
-    console.error('Error fetching photographers:', error);
+    console.error('Error fetching photographers:', error.message);
     return [];
   }
 };
 
 export const fetchPhotographerById = async (id) => {
   try {
-    const response = await axios.get(`/api/photographers/${id}`);
-    return response.data;
+    const res = await axios.get(`${BASE_URL}/photographers/${id}`);
+    return res.data;
   } catch (error) {
-    console.error(`Error fetching photographer with ID ${id}:`, error.response?.status, error.message);
+    console.error(`Error fetching photographer with ID ${id}:`, error.message);
     return null;
   }
 };
+
