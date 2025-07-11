@@ -1,0 +1,564 @@
+{
+  "photographers": [
+ {
+      "id": 1,
+      "name": "Ravi Studio",
+      "profilePic": "/images/a.jpg",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "portfolio": ["/images/a.jpg", "/images/e.jpg", "/images/f.jpg"],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Queen Photography",
+      "location": "Delhi",
+      "price": 15000,
+      "rating": 4.2,
+      "styles": ["Candid", "Indoor"],
+      "tags": ["Newborn", "Birthday"],
+      "bio": "Delhi-based candid specialist for kids and birthday parties.",
+      "profilePic": "/images/d.jpg",
+      "portfolio": ["/images/e.jpg", "/f.jpg"],
+      "reviews": [
+        {
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Very professional and punctual!",
+          "date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Click Factory",
+      "location": "Mumbai",
+      "price": 8000,
+      "rating": 4.8,
+      "styles": ["Studio", "Outdoor", "Traditional"],
+      "tags": ["Wedding", "Pre-wedding"],
+      "bio": "Capturing timeless wedding stories across India.",
+      "profilePic": "/images/k.jpg",
+      "portfolio": ["/images/b.jpg", "/images/j.jpg"],
+      "reviews": [
+        {
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "We loved every single moment they captured.",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moments by Neha",
+      "location": "Bengaluru",
+      "price": 12000,
+      "rating": 4.3,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Maternity", "Couple"],
+      "bio": "Natural light specialist focusing on emotional storytelling.",
+      "profilePic": "/images/j.jpg",
+      "portfolio": ["/images/k.jpg", "/images/l.jpg"],
+      "reviews": [
+        {
+          "name": "Sneha",
+          "rating": 4.5,
+          "comment": "Captured our maternity journey so beautifully.",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Snapshot Studio",
+      "location": "Hyderabad",
+      "price": 7000,
+      "rating": 3.9,
+      "styles": ["Studio"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Affordable indoor shoots with creative themes.",
+      "profilePic": "/images/m.jpg",
+      "portfolio": ["/images/n.jpg", "/images/a.jpg"],
+      "reviews": [
+        {
+          "name": "Vikram",
+          "rating": 3.5,
+          "comment": "Decent service, could improve on punctuality.",
+          "date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Light & Shadow",
+      "location": "Chennai",
+      "price": 9500,
+      "rating": 4.7,
+      "styles": ["Traditional", "Studio"],
+      "tags": ["Family", "Portrait"],
+      "bio": "Mastering the art of traditional portrait photography.",
+      "profilePic": "/images/b.jpg",
+      "portfolio": ["/images/c.jpg", "/images/d.jpg"],
+      "reviews": [
+        {
+          "name": "Karthik",
+          "rating": 4.8,
+          "comment": "Beautiful traditional portraits for our family.",
+          "date": "2024-08-15"
+        }
+      ]
+    },
+{
+      "id": 7,
+      "name": "Ravi Studio",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "profilePic": "/images/art.jpg",
+      "portfolio": ["/images/forest.jpg", "/images/illu.jpg"],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Golden Hour Studio",
+      "location": "Goa",
+      "price": 13000,
+      "rating": 4.9,
+      "styles": ["Outdoor", "Beach"],
+      "tags": ["Maternity", "Couple", "Wedding"],
+      "bio": "Specializing in magical golden hour beach photography.",
+      "profilePic": "/images/prposal.jpg",
+      "portfolio": ["/images/prposalring.jpg", "/images/purple.jpg"],
+      "reviews": [
+        {
+          "name": "Meera",
+          "rating": 5,
+          "comment": "Absolutely stunning beach maternity photos!",
+          "date": "2024-11-30"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pixel Perfect Photography",
+      "location": "Delhi",
+      "price": 8500,
+      "rating": 4.0,
+      "styles": ["Studio", "Indoor"],
+      "tags": ["Newborn", "Baby"],
+      "bio": "Creating adorable memories of your little ones.",
+      "profilePic": "/images/purple.jpg",
+      "portfolio": ["/images/prposal.jpg", "/images/prposal.jpg"],
+      "reviews": [
+        {
+          "name": "Neha",
+          "rating": 4.2,
+          "comment": "Beautiful newborn photos we'll treasure forever.",
+          "date": "2024-09-05"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Shutter Stories Funtech",
+      "location": "Bangalore",
+      "price": 14000,
+      "rating": 4.7,
+      "styles": ["Documentary", "Candid"],
+      "tags": ["Wedding", "Events"],
+      "bio": "Telling your special day's story through authentic moments.",
+      "profilePic": "/images/roadview.jpg",
+      "portfolio": ["/images/prposal.jpg", "/images/prposal.jpg"],
+      "reviews": [
+        {
+          "name": "Raj",
+          "rating": 4.9,
+          "comment": "Captured our wedding perfectly without being intrusive.",
+          "date": "2024-12-01"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DreamCatcher Photography",
+      "location": "Jaipur",
+      "price": 12500,
+      "rating": 4.5,
+      "styles": ["Traditional", "Cultural"],
+      "tags": ["Pre-wedding", "Cultural"],
+      "bio": "Capturing Rajasthan's royal heritage in your special moments.",
+      "profilePic": "/images/sunset.jpg",
+      "portfolio": ["/images/roadview.jpg", "/images/roadview.jpg"],
+      "reviews": [
+        {
+          "name": "Priyanka",
+          "rating": 4.7,
+          "comment": "Magical cultural shoot at the City Palace!",
+          "date": "2024-10-25"
+        }
+      ]
+    },
+{
+      "id": 12,
+      "name": "Ravi Studio Got Pixels",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "profilePic": "/images/a.jpg",
+      "portfolio": ["/images/b.jpg", "/images/c.jpg"],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Natural Expressions",
+      "location": "Mumbai",
+      "price": 16000,
+      "rating": 4.8,
+      "styles": ["Outdoor", "Candid", "Lifestyle"],
+      "tags": ["Maternity", "Family"],
+      "bio": "Authentic emotions captured in natural environments.",
+      "profilePic": "/images/c.jpg",
+      "portfolio": ["/images/sunset.jpg", "/images/sunset.jpg"],
+      "reviews": [
+        {
+          "name": "Sunita",
+          "rating": 4.9,
+          "comment": "Our family photos look so natural and beautiful!",
+          "date": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Silhouette Studios Point",
+      "location": "Delhi",
+      "price": 9000,
+      "rating": 4.0,
+      "styles": ["Studio", "Creative"],
+      "tags": ["Fashion", "Portfolio"],
+      "bio": "Creative studio photography for models and artists.",
+      "profilePic": "/images/d.jpg",
+      "portfolio": ["/images/c.jpg", "/images/c.jpg"],
+      "reviews": [
+        {
+          "name": "Riya",
+          "rating": 4.2,
+          "comment": "Amazing portfolio shots for my modeling career!",
+          "date": "2024-09-20"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Wilderness Frames Pho..",
+      "location": "Rishikesh",
+      "price": 18000,
+      "rating": 4.9,
+      "styles": ["Adventure", "Outdoor"],
+      "tags": ["Adventure", "Couple"],
+      "bio": "Epic adventure photography in Himalayan landscapes.",
+      "profilePic": "/images/editing1.jpg",
+      "portfolio": ["/images/d.jpg", "/images/d.jpg"],
+      "reviews": [
+        {
+          "name": "Arjun",
+          "rating": 5,
+          "comment": "Breathtaking adventure shoot at Rishikesh!",
+          "date": "2024-12-05"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Tiny Toes Photography",
+      "location": "Chennai",
+      "price": 8500,
+      "rating": 4.6,
+      "styles": ["Indoor", "Lifestyle"],
+      "tags": ["Newborn", "Baby"],
+      "bio": "Specializing in delicate newborn photography.",
+      "profilePic": "/images/serum.jpg",
+      "portfolio": ["/images/editing1.jpg", "/images/editing1.jpg"],
+      "reviews": [
+        {
+          "name": "Divya",
+          "rating": 4.7,
+          "comment": "Gentle and patient with our newborn baby.",
+          "date": "2024-08-25"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Vintage Lens Shopping",
+      "location": "Mumbai",
+      "price": 11000,
+      "rating": 4.3,
+      "styles": ["Film", "Vintage"],
+      "tags": ["Wedding", "Engagement"],
+      "bio": "Nostalgic film-style photography for timeless memories.",
+      "profilePic": "/images/Skymountain.jpg",
+      "portfolio": ["/images/serum.jpg", "/images/serum.jpg"],
+      "reviews": [
+        {
+          "name": "Rohan",
+          "rating": 4.5,
+          "comment": "Beautiful vintage-style wedding photos.",
+          "date": "2024-10-10"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Aerial Perspectives",
+      "location": "Goa",
+      "price": 22000,
+      "rating": 4.8,
+      "styles": ["Drone", "Aerial"],
+      "tags": ["Beach", "Wedding"],
+      "bio": "Stunning aerial photography for beach weddings and events.",
+      "profilePic": "/images/n.jpg",
+      "portfolio": ["/images/Skymountain.jpg", "/images/Skymountain.jpg"],
+      "reviews": [
+        {
+          "name": "Nikhil",
+          "rating": 4.9,
+          "comment": "Incredible drone shots of our beach ceremony!",
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Candid Moments Photoshop",
+      "location": "Delhi",
+      "price": 9500,
+      "rating": 4.4,
+      "styles": ["Candid", "Lifestyle"],
+      "tags": ["Birthday", "Events"],
+      "bio": "Capturing genuine emotions at your special events.",
+      "profilePic": "/images/darkfire.jpg",
+      "portfolio": ["/images/n.jpg", "/images/n.jpg"],
+      "reviews": [
+        {
+          "name": "Sanjay",
+          "rating": 4.6,
+          "comment": "Perfectly captured my daughter's birthday joy.",
+          "date": "2024-09-15"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Monochrome Art Point",
+      "location": "Kolkata",
+      "price": 12500,
+      "rating": 4.7,
+      "styles": ["Black & White", "Fine Art"],
+      "tags": ["Portrait", "Artistic"],
+      "bio": "Artistic black and white fine art photography.",
+      "profilePic": "/images/d.jpg",
+      "portfolio": ["/images/darkfire.jpg", "/images/darkfire.jpg"],
+      "reviews": [
+        {
+          "name": "Anjali",
+          "rating": 4.8,
+          "comment": "Stunning artistic portraits in monochrome.",
+          "date": "2024-12-10"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Bollywood Dreams",
+      "location": "Mumbai",
+      "price": 15000,
+      "rating": 4.5,
+      "styles": ["Cinematic", "Glamour"],
+      "tags": ["Portfolio", "Modeling"],
+      "bio": "Bollywood-style glamour photography for aspiring actors.",
+      "profilePic": "/images/p.jpg",
+      "portfolio": ["/images/d.jpg", "/images/d.jpg"],
+      "reviews": [
+        {
+          "name": "Karan",
+          "rating": 4.6,
+          "comment": "Perfect Bollywood-style portfolio for auditions.",
+          "date": "2024-10-05"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Pet Portraits",
+      "location": "Bangalore",
+      "price": 8000,
+      "rating": 4.9,
+      "styles": ["Lifestyle", "Pet"],
+      "tags": ["Pets", "Animals"],
+      "bio": "Specialized photography for your furry family members.",
+      "profilePic": "/images/romanticprpose.jpg",
+      "portfolio": ["/images/p.jpg", "/images/p.jpg"],
+      "reviews": [
+        {
+          "name": "Meena",
+          "rating": 5,
+          "comment": "Beautiful photos of my golden retriever!",
+          "date": "2024-08-30"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Heritage Captures",
+      "location": "Jaipur",
+      "price": 13500,
+      "rating": 4.7,
+      "styles": ["Cultural", "Traditional"],
+      "tags": ["Pre-wedding", "Heritage"],
+      "bio": "Showcasing India's heritage in your special moments.",
+      "profilePic": "/images/weddingflower.jpg",
+      "portfolio": ["/images/romanticprpose.jpg", "/images/romanticprpose.jpg"],
+      "reviews": [
+        {
+          "name": "Vikram",
+          "rating": 4.8,
+          "comment": "Amazing heritage shoot at Amber Fort!",
+          "date": "2024-11-10"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Urban Jungle",
+      "location": "Mumbai",
+      "price": 10500,
+      "rating": 4.3,
+      "styles": ["Street", "Urban"],
+      "tags": ["Fashion", "Lifestyle"],
+      "bio": "Street-style photography in urban environments.",
+      "profilePic": "/images/vibrant.jpg",
+      "portfolio": ["/images/weddingflower.jpg", "/images/weddingflower.jpg"],
+      "reviews": [
+        {
+          "name": "Riya",
+          "rating": 4.4,
+          "comment": "Edgy street-style photos for my Instagram.",
+          "date": "2024-09-25"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Golden Memories Pixels ",
+      "location": "Chennai",
+      "price": 11500,
+      "rating": 4.6,
+      "styles": ["Portrait", "Traditional"],
+      "tags": ["Family", "Generations"],
+      "bio": "Preserving family memories across generations.",
+      "profilePic": "/images/e.jpg",
+      "portfolio": ["/images/vibrant.jpg", "/images/vibrant.jpg"],
+      "reviews": [
+        {
+          "name": "Rajesh",
+          "rating": 4.7,
+          "comment": "Beautiful photos of our three generations together.",
+          "date": "2024-12-20"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Food Frame Studio Care",
+      "location": "Delhi",
+      "price": 9500,
+      "rating": 4.4,
+      "styles": ["Product", "Commercial"],
+      "tags": ["Food", "Commercial"],
+      "bio": "Mouth-watering food photography for restaurants.",
+      "profilePic": "/images/valley.jpg",
+      "portfolio": ["/images/e.jpg", "/images/e.jpg"],
+      "reviews": [
+        {
+          "name": "Chef Rahul Photography",
+          "rating": 4.5,
+          "comment": "Our menu photos increased orders by 30%!",
+          "date": "2024-10-15"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Ruiz PLC Photoshop Tour",
+      "location": "Delhi",
+      "price": 18073,
+      "rating": 4.5,
+      "styles": ["Indoor", "Outdoor", "Traditional"],
+      "tags": ["Newborn", "Family"],
+      "bio": "Natural light enthusiast capturing beautiful moments.",
+      "profilePic": "/images/task.jpg",
+      "portfolio": ["/images/valley.jpg", "/images/valley.jpg"],
+      "reviews": [
+        {
+          "name": "Jennifer",
+          "rating": 4.1,
+          "comment": "Best really term child Congress whom test many.",
+          "date": "2024-07-31"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Urban Edge Photography",
+      "location": "Mumbai",
+      "price": 12500,
+      "rating": 4.6,
+      "styles": ["Gritty", "Urban"],
+      "tags": ["Fashion", "Modeling"],
+      "bio": "Edgy urban fashion photography in street settings.",
+      "profilePic": "/images/sanghaitower.jpg",
+      "portfolio": ["/images/task.jpg", "/images/task.jpg"],
+      "reviews": [
+        {
+          "name": "Aryan",
+          "rating": 4.7,
+          "comment": "Perfect edgy portfolio for my modeling career.",
+          "date": "2024-10-30"
+        }
+      ]
+    }
+  ]
+}
